@@ -1,5 +1,4 @@
-// import React, { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import InputSearch from "./InputSearch";
 
 export default function SearchHeader() {
@@ -24,5 +23,4 @@ export default function SearchHeader() {
       <InputSearch onSearch={handleSearch} />
     </header>
   );
-  // <Link to="/">HOME</Link>
 }
