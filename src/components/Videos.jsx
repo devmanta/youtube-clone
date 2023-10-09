@@ -3,5 +3,5 @@ import { useParams } from "react-router-dom";
 
 export default function Videos() {
   const { keyword } = useParams();
-  return <div>videos {keyword}</div>;
+  return <div>videos {keyword ? keyword : "🔥"}</div>;
 }
